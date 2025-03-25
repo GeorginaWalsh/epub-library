@@ -10,7 +10,7 @@ const server = http.createServer((req, res) => {
     res.writeHead(200, { 'Content-Type': 'text/html'});
 
     // read and serve html file
-    fs.readFile('main/html/index.html', (err, data) => {
+    fs.readFile('index.html', (err, data) => {
         if (err) {
             res.write('<h1>Error loading the file</h1>');
             res.end();
