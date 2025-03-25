@@ -1,5 +1,5 @@
 //Main file
-//Sets off everything
+//Sets off everything on local host
 
 const http = require('http')
 const fs = require('fs')
